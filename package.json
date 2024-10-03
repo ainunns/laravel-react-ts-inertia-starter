@@ -1,6 +1,5 @@
 {
   "private": true,
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -9,10 +8,14 @@
     "format": "biome format .",
     "format:write": "biome format --write .",
     "check": "biome check .",
-    "check:write": "biome check --write ."
+    "check:write": "biome check --write .",
+    "prepare": "husky",
+    "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.3",
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
     "@headlessui/react": "^2.0.0",
     "@inertiajs/react": "^1.0.0",
     "@tailwindcss/forms": "^0.5.3",
@@ -22,7 +25,9 @@
     "@vitejs/plugin-react": "^4.2.0",
     "autoprefixer": "^10.4.12",
     "axios": "^1.7.4",
+    "husky": "^9.1.6",
     "laravel-vite-plugin": "^1.0",
+    "lint-staged": "^15.2.10",
     "postcss": "^8.4.31",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
