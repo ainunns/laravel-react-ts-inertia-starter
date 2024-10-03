@@ -1,4 +1,5 @@
 {
+  "name": "laravel-react-ts-inertia-starter",
   "private": true,
   "scripts": {
     "dev": "vite",

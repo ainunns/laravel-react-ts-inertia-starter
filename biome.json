@@ -12,7 +12,7 @@
       "**/vendor/**",
       "**/public/**",
       "**/node_modules",
-      "**/package-lock.json"
+      "**/pnpm-lock.yaml"
     ]
   },
   "organizeImports": { "enabled": true },
@@ -97,7 +97,7 @@
       "**/vendor/**",
       "**/public/**",
       "**/node_modules",
-      "**/package-lock.json"
+      "**/pnpm-lock.yaml"
     ]
   },
   "javascript": {
